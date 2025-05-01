@@ -86,5 +86,15 @@ public class App {
 
         // Contar por tipo
         cm.contarPorTipo();
+
+        //Clona productos existentes
+        Producto p4 = p1.clone();
+        p4.setNombre("Hamburguesa");
+        p4.setComponentes(Arrays.asList("Pan", "Carne", "Queso", "lechuga", "Salsa", "Tocineta"));
+        p4.setPrecio(20);
+
+        System.out.println("\nProductos clonados:" + p4);
+
+
     }
 }

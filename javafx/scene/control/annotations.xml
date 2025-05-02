@@ -1,0 +1,5 @@
+<root>
+    <item name='javafx.scene.control.TableView rowFactory'>
+        <annotation name='javafx.fxml.FXML'/>
+    </item>
+</root>

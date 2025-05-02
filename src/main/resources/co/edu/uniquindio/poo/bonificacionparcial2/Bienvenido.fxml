@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="25" style="-fx-padding: 40; -fx-background-color: #f0f8ff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.bonificacionparcial2.viewController.BienvenidoViewController">
+    <children>
+        <Label style="-fx-font-size: 28; -fx-font-weight: bold; -fx-text-fill: #2c3e50;" text="¡Bienvenido a QuickShield!">
+            <font>
+                <Font name="Segoe UI" size="24.0" />
+            </font>
+        </Label>
+
+        <Label style="-fx-font-size: 14; -fx-text-fill: #7f8c8d;" text="Sistema de Gestión de Seguridad" />
+
+        <Button onAction="#irAProductos" prefHeight="45.0" prefWidth="300.0" style="-fx-background-color: #3498db; -fx-text-fill: white; -fx-font-size: 16; -fx-font-weight: bold;" text="Catálogo de Productos">
+            <font>
+                <Font name="Segoe UI" size="14.0" />
+            </font>
+        </Button>
+
+        <Button onAction="#irADispositivos" prefHeight="45.0" prefWidth="300.0" style="-fx-background-color: #2ecc71; -fx-text-fill: white; -fx-font-size: 16; -fx-font-weight: bold;" text="Monitoreo de Dispositivos">
+            <font>
+                <Font name="Segoe UI" size="14.0" />
+            </font>
+        </Button>
+
+        <Label style="-fx-font-size: 12; -fx-text-fill: #95a5a6;" text="Por Juan Oduver y Nicolás Ruiz" />
+    </children>
+</VBox>

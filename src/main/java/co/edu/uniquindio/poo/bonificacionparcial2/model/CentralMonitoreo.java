@@ -80,4 +80,8 @@ public class CentralMonitoreo {
             }
         }
     }
+
+    public List<Dispositivo> getDispositivos() {
+        return dispositivos;
+    }
 }
